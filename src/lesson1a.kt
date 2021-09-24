@@ -6,7 +6,7 @@ fun main(){
     val number4: Short= 3200; // whole number from -32k to 32k
     var total:Double = 0.0;
     total = number1+number2+number3+number4
-    println("your sum is "+total)
+    //println("your sum is "+total)
     println("your sum is $total")
 
 
@@ -14,5 +14,5 @@ fun main(){
 // to do.
 //1. create new kotlin file
 //2. bmi
-//3. simple intrerest(PTR/100)
-//4. Area of a circle(PIRsquared)
+//3. simple interest(PTR/100)
+//4. Area of a circle(PIRSquared)
