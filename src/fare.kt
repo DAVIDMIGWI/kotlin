@@ -10,7 +10,7 @@ fun main() {
     val cost3:Double = 10.00
     val cost4:Double = 12.00
 
-    if(distance < 100){
+    if(distance <= 100){
         val total:Double = distance*cost1
         println("Total amount is $total")
     }
@@ -23,7 +23,7 @@ fun main() {
         println("Total amount is $total")
     }
     else if
-            (distance > 1000.0)
+            (distance >= 1001.0)
     {
         val total:Double = distance*cost4
         println("Total amount is $total")

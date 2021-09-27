@@ -19,21 +19,23 @@ fun main() {
 
     if(units <= 50){
         val total:Double = units*0.50
-        print("Total amount  is $total Rs")
+        println("Total amount  is $total Rs")
     }
     else if (units in 51.0 .. 150.0){
         val total:Double = units - 50*R2 + 50*R1
-        print("Total amount is $total Rs")
+        println("Total amount is $total Rs")
     }
     else if (units in 151.0 ..250.0){
 
         val total:Double = pay1 + pay2 + (units-150)*R3
-        print("Total amount  is $total Rs")
+        println("Total amount  is $total Rs")
     }
     else if (units > 250.0){
         val total:Double = pay1 + pay2 + pay3 + (units-250)*R4
-        print("Total amount is $total Rs")
+        println("Total amount is $total Rs")
     }
+    else
+        println("invalid")
 
 
 }
